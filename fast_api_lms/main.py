@@ -9,10 +9,11 @@ app = FastAPI(
     version= "0.1" ,  #version of the api
     contact = {
         'name': 'Fabian Ombui',
-        'email': "omoke8116@gmail.com"
-        
-    }
-
+        'email': "omoke8116@gmail.com"   
+    },
+    license_info={
+        'name':'MIT',
+        },
 )
 
 users = []
